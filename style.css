@@ -661,6 +661,7 @@ address {
         display: block;
         background-color: #53595a;
         z-index: 1000;
+        transition: all 0.8s ease;
     }
     
     .navlist li {
@@ -695,14 +696,17 @@ address {
 
 
     .closebtn {
+        color: #f08f18;
+        background: transparent;
         border: none;
         text-decoration: none;
         font-size: 4rem;
         align-self: flex-end;
-        position: fixed;
-        top: 1rem;
-        right: 0rem;
+        position: absolute;
+        top: 0rem;
+        right: 1rem;
         display: block;
+        cursor: pointer;
     }
 
     .toggle {
@@ -732,10 +736,10 @@ address {
         background: #53595a;
         border-radius: 0px 80px 0px 80px;
         padding: 20px 40px 20px 40px;
-        width: 100%;
+        width: 90%;
         position: absolute;
         z-index: 999;
-        top: 54%;
+        top: 55%;
     }
     
     .content .spice {
